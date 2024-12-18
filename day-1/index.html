@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Christmas List</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+	<div class="container">
+		<h1>My Christmas List</h1>
+		<div class="input-group">
+			<label for="item-input">Enter an item</label>
+			<div>
+				<input type="text" id="item-input" placeholder="E.g. Socks">
+				<button id="add-item-button">Add Item</button>
+				<p id="error"></p>
+			</div>
+		</div>
+		<ul id="shopping-list" aria-live="polite"></ul>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
